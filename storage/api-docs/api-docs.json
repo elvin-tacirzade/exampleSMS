@@ -264,6 +264,7 @@
                     {
                         "name": "date",
                         "in": "query",
+                        "description": "Date default is set to ASC. If you don't want ASC you can do DESC",
                         "schema": {
                             "type": "string"
                         }

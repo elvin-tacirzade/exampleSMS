@@ -136,6 +136,7 @@ use Illuminate\Routing\Controller as BaseController;
  *     @OA\Parameter(
  *         in="query",
  *         name="date",
+ *         description="Date default is set to ASC. If you don't want ASC you can do DESC",
  *         @OA\Schema(type="string")
  *     ),
  *      @OA\Response(
